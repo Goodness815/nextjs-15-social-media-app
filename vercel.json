@@ -1,13 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/node",
-      "config": {
-        "buildCommand": "npm install --legacy-peer-deps && next build"
-      }
-    }
-  ],
   "crons": [
     {
       "path": "/api/clear-uploads",
